@@ -1,11 +1,11 @@
-
 print("create ext")
 import os 
 import sys
 sys.path.append(".")
-sys.path.append("Z:\\Enviroments\\ml\\Lib\\site-packages")
-os.environ["PATH"] += os.pathsep + f'Z:\\Enviroments\\ml\\DLLs'
-os.environ["PATH"] += os.pathsep + f'Z:\\Enviroments\\ml\\\\Library\\bin'
+
+sys.path.append(op('../cfg')[0,0])
+os.environ["PATH"] += os.pathsep + op('../cfg')[1,0]
+os.environ["PATH"] += os.pathsep + op('../cfg')[2,0]
 
 import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
