@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "TD_Sequencer"
+		},
+		{
+			"path": "TD_CollabPresets"
+		},
+		{
+			"path": "TD_Spectrum"
 		}
 	],
 	"settings": {}
