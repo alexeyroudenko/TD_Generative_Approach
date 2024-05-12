@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "TD_MarkovChain"
+		},
+		{
+			"path": "TD_Sequencer"
 		}
 	],
 	"settings": {}
